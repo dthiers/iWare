@@ -1,0 +1,345 @@
+html, body{
+	min-width: 800px;
+	background-color: #ededed;
+	margin: 0;
+	height: 100%;
+}
+h2 {
+	font-weight: 100;
+	text-shadow: 1px 1px #e6e6e6;
+}
+.contentwrapper{
+	/*padding-top: 25px;*/
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -200px;
+}
+.header{
+	min-height: 120px;
+	background-color: white;
+	text-align: right;
+	font-size: 50px;
+}
+#header_left{
+	display: inline;
+	float: left;
+}
+#header_right{
+	display: inline;
+	float: right;
+}
+.header img {
+	padding: 15px;
+}
+#logo {
+	
+}
+.content {
+	background-color: white;
+	display: inline;
+	float: left;
+	width: 100%;
+	height: 100%;
+	min-height: 800px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	line-height: 155%;
+}
+.content img {
+	padding: 5px;
+}
+#home_content {
+	margin-left: 14%;
+	margin-right: 14%;
+}
+#includeContent {
+	margin-left: 20px;
+	margin-top: 50px;
+}
+#iphone_detail{
+	display: none;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	line-height: 155%;
+}
+#iphone{
+	display: none;
+}
+.knop_java{
+	float: right;
+}
+.footer{
+	margin: auto;
+	border-top: 5px solid #e6e6e6;
+	text-align: center;
+	bottom: 0;
+	background-color: white;
+	padding: 50px 0 50px 0;
+	height: 200px;
+	max-width: 100%;
+}
+.footer, .push{
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	color: white;
+	line-height: 155%;
+	height: 200px; /*Deze was 300px*/
+	clear: both;
+}
+
+/*----------------------------------------------------------*/
+
+#left {
+	width: 70%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+#right {
+	min-width: 230px;
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+#ip_image{
+	float: right;
+}
+#right img {
+	padding-top: 10px;
+}
+
+/*----------------------------------------------------------*/
+/*Navmenu */
+/*----------------------------------------------------------*/
+
+#navMenu {
+	font-family: arial, sans-serif;
+	letter-spacing: -0.1em;
+	font-size: 1em;
+	line-height: 155%;
+	margin: 0;
+	padding: 0;
+	min-width: 600px;
+}
+
+#navMenu ul {
+	margin: 0;
+	padding: 0;
+	line-height: 30px;
+}
+
+#navMenu li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	float: left;
+	position: relative;
+}
+#navMenu ul li {
+	/*width: 50px;*/
+}
+#navMenu ul li a {
+	text-align: center;
+	text-decoration: none;
+	height: 30px;
+	width: 85px;
+	display: block;
+	color: #000;
+}
+
+#navMenu ul ul {
+	background-color: white;
+	font-size: 0.8em;
+	position: absolute;
+	visibility: hidden;
+	top:30px;
+	
+	transition: opacity 0.3s ease-in;
+	-moz-transition: opacity 0.3s ease-in;
+	-webkit-transition: opacity 0.3s ease-in;
+}
+#navMenu ul li:hover {
+	transition: opacity 0.3s ease-in;
+	-moz-transition: opacity 0.3s ease-in;
+	-webkit-transition: opacity 0.3s ease-in;
+	background-color: white;
+}
+
+#navMenu ul ul li:hover {
+	background: #ededed;
+}
+
+
+#navMenu ul li:hover > ul {
+	visibility:visible;
+}
+
+navMenu ul ul ul {
+	position: absolute;
+	visibility: hidden;
+}
+
+navMenu ul ul li:hover > ul {
+	visibility: visible;
+}
+
+/*------------------------------------------------------*/
+/*Link properties navMenu*/
+/*------------------------------------------------------*/
+
+a{
+	color: black;
+}
+#navMenu a:link{
+	color: black;
+	text-decoration: none;
+}
+#navMenu a:visited{
+	color: black;
+	text-decoration: none;
+}
+#navMenu a:hover{
+	letter-spacing: 0.1em;
+	/*color: #2cafe5;*/
+	color: #da2703;
+}
+#navMenu a:active{
+	color: white;
+}
+#navMenu ul li a:hover {
+	letter-spacing: 0;
+}	
+
+/*------------------------------------------------------*/
+/*Breadcrumbs*/
+/*------------------------------------------------------*/
+
+#breadCrumbs {
+	font-family: arial, sans-serif;
+	letter-spacing: 0.1em;
+	font-size: 10px;
+	line-height: 155%;
+	
+	border-top: 1px solid #da2703;
+	
+	margin-top: 30px;
+	background-color: #e6e6e6;
+	height: 15px;
+	width: auto;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+p#breadCrumbs{
+	margin: 0px;
+	padding: 0px;
+}	
+
+/*---------------------------------------------------*/
+/*Table iPhone page*/
+/*---------------------------------------------------*/
+
+.mainTable table {
+	/*border-collapse: seperate;
+	border-spacing: 200px 0px;*/
+	text-align: center;
+	 
+    margin-left: auto;
+    margin-right: auto;
+}
+.mainTable td{
+	padding: 10px;
+	border-bottom-style: solid;
+	border-bottom-color: #e6e6e6;
+	border-bottom-width: 2px;
+	border-radius: 0 0 5px 5px;
+
+}
+
+/*---------------------------------------------------*/
+/*include table*/
+/*---------------------------------------------------*/
+
+.links {
+	font-family: Arial, sans-serif;
+	min-width: 165px;
+	font-size: 0.7em;
+	color: grey;
+}
+
+.rechts {
+	font-family: Arial, sans-serif;
+	font-size: 0.8em;
+	border-bottom-style: solid;
+	border-bottom-color: #e6e6e6;
+	border-bottom-width: 0.1em;
+	color: #da2703;
+}
+
+/*---------------------------------------------------*/
+/*Footer distance*/
+/*---------------------------------------------------*/
+
+.footer_distance {
+	margin: 0 auto;
+}
+.footer_distance td {
+	text-align: center;
+	height: 170px;
+	min-width: 250px;
+	width: 33%;
+}
+.footer_disance table {
+	width: 100%;
+}
+
+
+/*---------------------------------------------------*/
+/*Slideshow homepage*/
+/*---------------------------------------------------*/
+
+
+#slides{
+	display: none;
+}
+
+#slide{
+	height: 400px;
+	width: 200px;
+ 	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+}
+
+/*---------------------------------------------------*/
+/*Contact page*/
+/*---------------------------------------------------*/
+
+#contact_content{
+	float: left;
+	margin-left: 70px;
+	width: 300px;
+}
+#contact_img {
+	float: right;
+	width: 498px;
+	height: 400px;
+}
+#kaart{
+	width: 100%;
+	height: 350px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto; 
+}
+/*---------------------------------------------------*/
+/*Tutorial*/
+/*---------------------------------------------------*/
+#table_tut{
+	padding-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	
+	border-collapse: separate;
+	border-spacing: 40px;
+}
